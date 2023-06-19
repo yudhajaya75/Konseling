@@ -36,11 +36,12 @@ const Navbar = () => {
                         </li>
                     </a>
                     {isOpen && (
-                        <div className="bg-blue-400 absolute ml-12 top-20 flex flex-col items-start rounded-lg p-2">
+                        <div className="bg-[#FFFFFF] absolute ml-12 top-20 flex flex-col items-start rounded-lg p-2">
                             {list.map((item, i) => (
-                                <div className="w-full justify-between text-gray-100 p-4 hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4" key={i}>
+                                <div className="w-[239px] justify-between text-[#074288] p-4 hover:bg-blue-300 cursor-pointer rounded-lg border-l-transparent hover:border-l-white" key={i}>
                                     <a href='webinar'><h3 className='font-bold'>{item.webinar}</h3></a>
                                     <a href='pelatihan'><h3 className='font-bold'>{item.pelatihan}</h3></a>
+                                    <a href='layanan'><h3 className='font-bold'>{item.layanan}</h3></a>
                                     <a href='konsultasi'><h3 className='font-bold'>{item.konsultasi}</h3></a>
                                 </div>
                             ))}

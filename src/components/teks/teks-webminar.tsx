@@ -2,7 +2,7 @@ import React from 'react'
 
 const teks = () => {
     return (
-        <div className='p-10 font-sans relative bottom-[100px]'>
+        <div className='p-10 font-sans mt-[-300px]'>
             <h5 className='font-bold text-center sm:text-left 
             text-4xl sm:text-3xl text-[#074288]'>Webinar ini?</h5>
             <p className='pt-10 text-justify'><a className='text-[#074288] hover:text-[#6d99d0]' href="/" target="/" rel="/">Berisi penjelasan disini...

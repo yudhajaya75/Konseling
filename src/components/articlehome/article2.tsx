@@ -55,7 +55,7 @@ const Articel = () => {
             </div>
 
             <div className="bg-[#002157] w-[200px] h-[40px] text-slate-100 font-semibold rounded-[5px] shadow-lg mx-auto mt-10 lg:mt-[80px] text-center pt-[8px]">
-                <a href="#" >Lihat semua artikel</a>
+                <a href="home2" >Lihat semua artikel</a>
             </div>
         </div>
     )
@@ -123,7 +123,7 @@ const ImageSlider = () => {
                     </div>
 
                     <div className="bg-[#002157] w-[200px] h-[40px] text-slate-100 font-semibold rounded-[5px] shadow-lg mx-auto mt-10 lg:mt-[80px] text-center pt-[8px]">
-                        <a href="#" >Lihat semua artikel</a>
+                        <a href="home2" >Lihat semua artikel</a>
                     </div>
                 </div>
             </Slider>

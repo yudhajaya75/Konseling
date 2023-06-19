@@ -36,11 +36,12 @@ const Navbar = () => {
                         </li>
                     </a>
                     {isOpen && (
-                        <div className="bg-blue-400 absolute ml-12 top-20 flex flex-col items-start rounded-lg p-2">
+                        <div className="bg-[#FFFFFF] absolute ml-12 top-20 flex flex-col items-start rounded-lg p-2">
                             {list.map((item, i) => (
-                                <div className="w-full justify-between text-gray-100 p-4 hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4" key={i}>
+                                <div className="w-[239px] justify-between text-[#074288] p-4 hover:bg-blue-300 cursor-pointer rounded-lg border-l-transparent hover:border-l-white" key={i}>
                                     <a href='webinar'><h3 className='font-bold'>{item.webinar}</h3></a>
                                     <a href='pelatihan'><h3 className='font-bold'>{item.pelatihan}</h3></a>
+                                    <a href='layanan'><h3 className='font-bold'>{item.layanan}</h3></a>
                                     <a href='konsultasi'><h3 className='font-bold'>{item.konsultasi}</h3></a>
                                 </div>
                             ))}
@@ -68,7 +69,7 @@ const Navbar = () => {
                 <ul className='uppercase p-4'>
                     <a href="/home">
                         <li className='p-4 border-b'>Home</li></a>
-                    <a href="/layanan" onClick={() => setIsOpen((prev) => !prev)}>
+                    <a href="#" onClick={() => setIsOpen((prev) => !prev)}>
                         <li className='p-4 border-b'>Layanan</li>
                         <li style={{ position: 'relative', left: 210, bottom: 35 }}>
                             {isOpen ? (
@@ -79,13 +80,14 @@ const Navbar = () => {
                         </li>
                     </a>
                     {isOpen && (
-                        <div className="bg-blue-400 absolute top-[220px] left-[-1px] flex flex-col items-start rounded-lg">
+                        <div className="bg-[#FFFFFF]  absolute top-[220px] left-[-1px] flex flex-col items-start rounded-lg">
                             {list.map((item, i) => (
-                                <div className="w-full justify-between text-gray-100 
-                                p-4 hover:bg-blue-300 cursor-pointer rounded-r-lg 
-                                border-l-transparent hover:border-l-white border-l-4" key={i}>
+                                <div className="w-full justify-between 
+                           p-4 hover:bg-blue-300 cursor-pointer rounded-lg text-[#074288]  
+                           border-l-transparent " key={i}>
                                     <a href='webinar'><h3 className='font-bold'>{item.webinar}</h3></a>
                                     <a href='pelatihan'><h3 className='font-bold'>{item.pelatihan}</h3></a>
+                                    <a href='layanan'><h3 className='font-bold'>{item.layanan}</h3></a>
                                     <a href='konsultasi'><h3 className='font-bold'>{item.konsultasi}</h3></a>
                                 </div>
                             ))}

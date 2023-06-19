@@ -31,7 +31,7 @@ const footer = () => {
                     <div className='sb__footer-links_div'>
                         <h4 style={{ fontWeight: 'bold', fontSize: '13px' }}>Social media bawahnya</h4>
                         <div className='socialmedia'>
-                            <p><img src="./images/fb.webp" alt="" /></p>
+                            <a href="https://www.facebook.com/konselingsatir.id/"><img src="http://localhost:3000/images/fb.webp" alt="" /></a>
                             <p><img src="./images/ig.webp" alt="" /></p>
                         </div>
                     </div>

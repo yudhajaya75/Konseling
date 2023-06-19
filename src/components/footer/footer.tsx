@@ -32,7 +32,7 @@ const footer = () => {
                     <div className='sb__footer-links_div'>
                         <h4 style={{ fontWeight: 'bold', fontSize: '13px' }}>Social media bawahnya</h4>
                         <div className='socialmedia'>
-                            <Link to="/"><img src="http://localhost:3000/images/fb.webp" alt="" /></Link>
+                            <a href="https://www.facebook.com/konselingsatir.id/"><img src="http://localhost:3000/images/fb.webp" alt="" /></a>
                             <p><img className='relative bottom-2' src="http://localhost:3000/images/ig.webp" alt="" /></p>
                             <a href=""></a>
                         </div>

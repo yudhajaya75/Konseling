@@ -12,70 +12,86 @@ const Blog = () => {
             <div className='relative'>
                 <div className='grid grid-cols-1 content-start absolute left-[1000px] top-[-2290px] '>
                     <div className=' relative left-[-10px] top-[70px]'>
-                        <img className='h-[250px] w-[400px]' src='./images/blog4.webp' alt='' />
-                        <div className='w-[400px] z-10 relative left-[13px] bottom-[-60px]'>
+                        <a href="#"><img className='h-[250px] w-[400px]' src='./images/blog4.webp' alt='' /></a>
+                        <div className='w-[400px] z-10 relative left-[13px] bottom-[-40px]'>
                             <p className='font-bold text-[25px] relative left-[-12px]'>Lorem Ipsum has been the industry's standard dummy text.</p>
-                            <div className='flex gap-5 relative top-8 left-[330px]'>
-                                <FaBookmark />
-                                <FaShare />
+                            <div className='relative bottom-[100px] left-[-12px] text-[#8B8B8B]'>
+                                <p>02 Hours ago</p>
                             </div>
-                            <div className='relative bottom-[129px] left-[-12px] text-[#8B8B8B]'>
-                                <p>06 Maret 2023</p>
-                            </div>
-                            <div className='relative top-[-30px] left-[-12px]'>
+                            <div className='relative top-[-10px] left-[-10px]'>
                                 <p className='font-bold text-[25px]'>100k</p>
                                 <p className='text-[#8B8B8B]'>People Saw</p>
+                            </div>
+                            <div className='flex gap-5 relative bottom-[55px] left-[325px] w-[100px] '>
+                                <a href="#">
+                                    <img src="../images/bookmark.webp" className='w-[20px]' alt="" />
+                                </a>
+                                <a href="#">
+                                    <img src="../images/share.webp" className='w-[20px]' alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className=' relative left-[-10px] top-[120px]'>
-                        <img className='h-[250px] w-[400px]' src='./images/blog5.webp' alt='' />
-                        <div className='w-[400px] z-10 relative left-[13px] bottom-[-60px]'>
+                        <a href="#"><img className='h-[250px] w-[400px]' src='./images/blog5.webp' alt='' /></a>
+                        <div className='w-[400px] z-10 relative left-[13px] bottom-[-40px]'>
                             <p className='font-bold text-[25px] relative left-[-12px]'>Lorem Ipsum has been the industry's standard dummy text.</p>
-                            <div className='flex gap-5 relative top-8 left-[330px]'>
-                                <FaBookmark />
-                                <FaShare />
+                            <div className='relative bottom-[100px] left-[-12px] text-[#8B8B8B]'>
+                                <p>02 Hours ago</p>
                             </div>
-                            <div className='relative bottom-[129px] left-[-12px] text-[#8B8B8B]'>
-                                <p>06 Maret 2023</p>
-                            </div>
-                            <div className='relative top-[-30px] left-[-12px]'>
+                            <div className='relative top-[-10px] left-[-10px]'>
                                 <p className='font-bold text-[25px]'>100k</p>
                                 <p className='text-[#8B8B8B]'>People Saw</p>
+                            </div>
+                            <div className='flex gap-5 relative bottom-[55px] left-[325px] w-[100px] '>
+                                <a href="#">
+                                    <img src="../images/bookmark.webp" className='w-[20px]' alt="" />
+                                </a>
+                                <a href="#">
+                                    <img src="../images/share.webp" className='w-[20px]' alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className=' relative left-[-10px] top-[170px]'>
-                        <img className='h-[250px] w-[400px]' src='./images/blog6.webp' alt='' />
-                        <div className='w-[400px] z-10 relative left-[13px] bottom-[-60px]'>
+                        <a href="#"><img className='h-[250px] w-[400px]' src='./images/blog6.webp' alt='' /></a>
+                        <div className='w-[400px] z-10 relative left-[13px] bottom-[-40px]'>
                             <p className='font-bold text-[25px] relative left-[-12px]'>Lorem Ipsum has been the industry's standard dummy text.</p>
-                            <div className='flex gap-5 relative top-8 left-[330px]'>
-                                <FaBookmark />
-                                <FaShare />
+                            <div className='relative bottom-[100px] left-[-12px] text-[#8B8B8B]'>
+                                <p>02 Hours ago</p>
                             </div>
-                            <div className='relative bottom-[129px] left-[-12px] text-[#8B8B8B]'>
-                                <p>06 Maret 2023</p>
-                            </div>
-                            <div className='relative top-[-30px] left-[-12px]'>
+                            <div className='relative top-[-10px] left-[-10px]'>
                                 <p className='font-bold text-[25px]'>100k</p>
                                 <p className='text-[#8B8B8B]'>People Saw</p>
+                            </div>
+                            <div className='flex gap-5 relative bottom-[55px] left-[325px] w-[100px] '>
+                                <a href="#">
+                                    <img src="../images/bookmark.webp" className='w-[20px]' alt="" />
+                                </a>
+                                <a href="#">
+                                    <img src="../images/share.webp" className='w-[20px]' alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className=' relative left-[-10px] top-[220px]'>
-                        <img className='h-[250px] w-[400px]' src='./images/blog7.webp' alt='' />
-                        <div className='w-[400px] z-10 relative left-[13px] bottom-[-60px]'>
+                        <a href="#"><img className='h-[250px] w-[400px]' src='./images/blog7.webp' alt='' /></a>
+                        <div className='w-[400px] z-10 relative left-[13px] bottom-[-40px]'>
                             <p className='font-bold text-[25px] relative left-[-12px]'>Lorem Ipsum has been the industry's standard dummy text.</p>
-                            <div className='flex gap-5 relative top-8 left-[330px]'>
-                                <FaBookmark />
-                                <FaShare />
+                            <div className='relative bottom-[100px] left-[-12px] text-[#8B8B8B]'>
+                                <p>02 Hours ago</p>
                             </div>
-                            <div className='relative bottom-[129px] left-[-12px] text-[#8B8B8B]'>
-                                <p>06 Maret 2023</p>
-                            </div>
-                            <div className='relative top-[-30px] left-[-12px]'>
+                            <div className='relative top-[-10px] left-[-10px]'>
                                 <p className='font-bold text-[25px]'>100k</p>
                                 <p className='text-[#8B8B8B]'>People Saw</p>
+                            </div>
+                            <div className='flex gap-5 relative bottom-[55px] left-[325px] w-[100px] '>
+                                <a href="#">
+                                    <img src="../images/bookmark.webp" className='w-[20px]' alt="" />
+                                </a>
+                                <a href="#">
+                                    <img src="../images/share.webp" className='w-[20px]' alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -106,72 +122,88 @@ const Founding = () => {
 const Mobile = () => {
     return (
         <>
-            <div className='grid grid-cols-1 content-start absolute left-[170px] top-[110px] '>
+            <div className='grid grid-cols-1 content-start absolute left-[170px] top-[116px] -ml-5'>
                 <div className=' relative left-[150px] top-[70px]'>
-                    <img className='h-[80px] w-[110px]' src='./images/blog4.webp' alt='' />
-                    <div className='w-[100px] z-10 relative left-[13px] bottom-[-60px]'>
-                        <p className='font-bold text-[7px] relative left-[-12px] bottom-[25px]'>Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <div className='flex gap-2 relative bottom-5 left-[70px] w-[25px]'>
-                            <FaBookmark />
-                            <FaShare />
+                    <a href="#"><img className='h-[80px] w-[110px]' src='./images/blog4.webp' alt='' /></a>
+                    <div className='w-[100px] z-10 relative left-[13px] bottom-[-40px]'>
+                        <p className='font-bold text-[7px] relative left-[-12px] bottom-5'>Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <div className='relative bottom-[65px] left-[-12px] text-[#8B8B8B] text-[7px]'>
+                            <p>02 Hours ago</p>
                         </div>
-                        <div className='relative bottom-[95px] left-[-12px] text-[#8B8B8B] text-[10px]'>
-                            <p>06 Maret 2023</p>
-                        </div>
-                        <div className='relative bottom-[50px] left-[-12px]'>
+                        <div className='relative bottom-[20px] left-[-12px]'>
                             <p className='font-bold text-[7px]'>100k</p>
-                            <p className='text-[#8B8B8B text-[7px]'>People Saw</p>
+                            <p className='text-[#8B8B8B] text-[7px]'>People Saw</p>
+                        </div>
+                        <div className='flex gap-2 relative bottom-12 left-[70px] w-[40px] '>
+                            <a href="#">
+                                <img src="../images/bookmark.webp" className='w-[8px]' alt="" />
+                            </a>
+                            <a href="#">
+                                <img src="../images/share.webp" className='w-[10px]' alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div className=' relative left-[150px] top-[90px]'>
-                    <img className='h-[80px] w-[110px]' src='./images/blog5.webp' alt='' />
-                    <div className='w-[100px] z-10 relative left-[13px] bottom-[-60px]'>
-                        <p className='font-bold text-[7px] relative left-[-12px] bottom-[25px]'>Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <div className='flex gap-2 relative bottom-5 left-[70px] w-[25px]'>
-                            <FaBookmark />
-                            <FaShare />
+                    <a href="#"><img className='h-[80px] w-[110px]' src='./images/blog5.webp' alt='' /></a>
+                    <div className='w-[100px] z-10 relative left-[13px] bottom-[-40px]'>
+                        <p className='font-bold text-[7px] relative left-[-12px] bottom-5'>Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <div className='relative bottom-[65px] left-[-12px] text-[#8B8B8B] text-[7px]'>
+                            <p>02 Hours ago</p>
                         </div>
-                        <div className='relative bottom-[95px] left-[-12px] text-[#8B8B8B] text-[10px]'>
-                            <p>06 Maret 2023</p>
-                        </div>
-                        <div className='relative bottom-[50px] left-[-12px]'>
+                        <div className='relative bottom-[20px] left-[-12px]'>
                             <p className='font-bold text-[7px]'>100k</p>
-                            <p className='text-[#8B8B8B text-[7px]'>People Saw</p>
+                            <p className='text-[#8B8B8B] text-[7px]'>People Saw</p>
+                        </div>
+                        <div className='flex gap-2 relative bottom-12 left-[70px] w-[40px] '>
+                            <a href="#">
+                                <img src="../images/bookmark.webp" className='w-[8px]' alt="" />
+                            </a>
+                            <a href="#">
+                                <img src="../images/share.webp" className='w-[10px]' alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div className=' relative left-[150px] top-[110px]'>
-                    <img className='h-[80px] w-[110px]' src='./images/blog6.webp' alt='' />
-                    <div className='w-[100px] z-10 relative left-[13px] bottom-[-60px]'>
-                        <p className='font-bold text-[7px] relative left-[-12px] bottom-[25px]'>Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <div className='flex gap-2 relative bottom-5 left-[70px] w-[25px]'>
-                            <FaBookmark />
-                            <FaShare />
+                    <a href="#"><img className='h-[80px] w-[110px]' src='./images/blog6.webp' alt='' /></a>
+                    <div className='w-[100px] z-10 relative left-[13px] bottom-[-40px]'>
+                        <p className='font-bold text-[7px] relative left-[-12px] bottom-5'>Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <div className='relative bottom-[65px] left-[-12px] text-[#8B8B8B] text-[7px]'>
+                            <p>02 Hours ago</p>
                         </div>
-                        <div className='relative bottom-[95px] left-[-12px] text-[#8B8B8B] text-[10px]'>
-                            <p>06 Maret 2023</p>
-                        </div>
-                        <div className='relative bottom-[50px] left-[-12px]'>
+                        <div className='relative bottom-[20px] left-[-12px]'>
                             <p className='font-bold text-[7px]'>100k</p>
-                            <p className='text-[#8B8B8B text-[7px]'>People Saw</p>
+                            <p className='text-[#8B8B8B] text-[7px]'>People Saw</p>
+                        </div>
+                        <div className='flex gap-2 relative bottom-12 left-[70px] w-[40px] '>
+                            <a href="#">
+                                <img src="../images/bookmark.webp" className='w-[8px]' alt="" />
+                            </a>
+                            <a href="#">
+                                <img src="../images/share.webp" className='w-[10px]' alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div className=' relative left-[150px] top-[130px]'>
-                    <img className='h-[80px] w-[110px]' src='./images/blog7.webp' alt='' />
-                    <div className='w-[100px] z-10 relative left-[13px] bottom-[-60px]'>
-                        <p className='font-bold text-[7px] relative left-[-12px] bottom-[25px]'>Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <div className='flex gap-2 relative bottom-5 left-[70px] w-[25px]'>
-                            <FaBookmark />
-                            <FaShare />
+                    <a href="#"><img className='h-[80px] w-[110px]' src='./images/blog7.webp' alt='' /></a>
+                    <div className='w-[100px] z-10 relative left-[13px] bottom-[-40px]'>
+                        <p className='font-bold text-[7px] relative left-[-12px] bottom-5'>Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <div className='relative bottom-[65px] left-[-12px] text-[#8B8B8B] text-[7px]'>
+                            <p>02 Hours ago</p>
                         </div>
-                        <div className='relative bottom-[95px] left-[-12px] text-[#8B8B8B] text-[10px]'>
-                            <p>06 Maret 2023</p>
-                        </div>
-                        <div className='relative bottom-[50px] left-[-12px]'>
+                        <div className='relative bottom-[20px] left-[-12px]'>
                             <p className='font-bold text-[7px]'>100k</p>
-                            <p className='text-[#8B8B8B text-[7px]'>People Saw</p>
+                            <p className='text-[#8B8B8B] text-[7px]'>People Saw</p>
+                        </div>
+                        <div className='flex gap-2 relative bottom-12 left-[70px] w-[40px] '>
+                            <a href="#">
+                                <img src="../images/bookmark.webp" className='w-[8px]' alt="" />
+                            </a>
+                            <a href="#">
+                                <img src="../images/share.webp" className='w-[10px]' alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>

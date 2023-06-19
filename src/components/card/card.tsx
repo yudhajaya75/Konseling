@@ -7,7 +7,8 @@ import '../card/card.css'
 
 const Card = () => {
     return (
-        <div className='container-card'>
+       <div className='con-card'>
+         <div className='container-card'>
             <div className="card-container">
                 <div className="image-container">
                     <div className="heading">Rp 375.000</div>
@@ -19,7 +20,7 @@ const Card = () => {
                 <div className="card-body">
                     <p className='text'>
                         <a href="/">Berisi penjelasan disini... </a>
-                        lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div className="btn">
                     <button className="button"><Link to="/payment">Pesan Sekarang</Link></button>
@@ -36,7 +37,7 @@ const Card = () => {
                 <div className="card-body">
                     <p className='text'>
                         <a href="/">Berisi penjelasan disini... </a>
-                        lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div className="btn">
                     <button className="button"><Link to="/payment">Pesan Sekarang</Link></button>
@@ -53,7 +54,7 @@ const Card = () => {
                 <div className="card-body">
                     <p className='text'>
                         <a href="/">Berisi penjelasan disini... </a>
-                        lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div className="btn">
                     <button className="button"><Link to="/payment">Pesan Sekarang</Link></button>
@@ -70,13 +71,14 @@ const Card = () => {
                 <div className="card-body">
                     <p className='text'>
                         <a href="/">Berisi penjelasan disini... </a>
-                        lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor</p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div className="btn">
                     <button className="button"><Link to="/payment">Pesan Sekarang</Link></button>
                 </div>
             </div>
         </div>
+       </div>
     );
 };
 

@@ -8,6 +8,7 @@ import '../card/cardwebminar.css';
 const Card = () => {
     return (
         <>
+            <div className='con-web'>
             <div className='webminar-card'>
                 <div className="card-webminar">
                     <div className="image-webminar">
@@ -209,6 +210,7 @@ const Card = () => {
                         <a href="/webinar3"><button className="button-webminar">Lihat Detail</button></a>
                     </div>
                 </div>
+            </div>
             </div>
         </>
 

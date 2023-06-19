@@ -28,10 +28,9 @@ const Login = () => {
                     <div className="flex flex-col gap-2">
                         <label htmlFor="email" className='font-medium'>Email</label>
                         <div className='border-2 p-3 rounded-md hover:border-sky-400/[.5] focus:border-sky-400/[.5] '>
-                            <input type="email" id='email' name='email' placeholder='your email' className='outline-0 w-full' />
+                            <input type="email" id='email' name='email' placeholder='your email' className='w-full' style={{ outline: '0px' }} />
                         </div>
                     </div>
-                    {/* end email */}
 
                     {/* password */}
                     <div className='flex flex-col gap-2'>
@@ -45,7 +44,8 @@ const Login = () => {
                                 id="password"
                                 name="password"
                                 placeholder="Your password"
-                                className="outline-0 w-full"
+                                className="w-full"
+                                style={{ outline: '0px' }}
                             />
                             <div onClick={handleTogglePassword} className="w-[15px]">
                                 {passwordVisible ? (

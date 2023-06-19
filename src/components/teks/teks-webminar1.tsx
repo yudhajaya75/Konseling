@@ -18,7 +18,7 @@ const Text1 = () => {
         sm:text-left text-4xl sm:text-3xl text-[#074288] 
         mb-[-200px]' style={{ position: 'relative', zIndex: 1 }}>
             <div className=''>
-                <h5 className='text-center relative bottom-[100px]'>
+                <h5 className='text-center pb-[100px]'>
                     Join Layanan kami yuk!
                     <br /> Cek disini
                 </h5>
