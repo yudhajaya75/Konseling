@@ -17,7 +17,7 @@
     }
 
     .heading {
-        @apply absolute object-cover mt-[220px] ml-[430px] rounded-md bg-white py-2 px-6 font-bold text-[#002157]
+        @apply absolute object-cover mt-[220px] ml-[450px] rounded-md bg-white py-2 px-6 font-bold text-[#002157]
     }
 
     .image-container {
