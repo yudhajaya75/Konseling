@@ -10,7 +10,7 @@ import Footer from '../../components/footer/footwebminar'
 
 const webinar = () => {
     return (
-        <>
+        <div className='mx-auto max-w-[1910px] relative'>
             <Navbar />
             <Banner />
             <Teks />
@@ -18,7 +18,7 @@ const webinar = () => {
             <Card />
             <Teks3 />
             <Footer />
-        </>
+        </div>
     )
 }
 

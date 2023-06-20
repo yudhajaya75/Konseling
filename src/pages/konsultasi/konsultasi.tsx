@@ -12,7 +12,7 @@ import Footer from '../../components/footer/footer';
 
 function konsultasi() {
   return (
-    <div>
+    <div className='mx-auto max-w-[1910px] relative'>
       <Navbar />
       <Banner />
       <Teks />

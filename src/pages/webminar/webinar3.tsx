@@ -11,7 +11,7 @@ import Footer from '../../components/footer/footwebminar'
 
 const webminar = () => {
     return (
-        <>
+        <div className='mx-auto max-w-[1910px] relative'>
             <Navbar />
             <Teks4 />
             <Banner />
@@ -20,7 +20,7 @@ const webminar = () => {
             <Teks3 />
             <Sosmed />
             <Footer />
-        </>
+        </div>
     )
 }
 

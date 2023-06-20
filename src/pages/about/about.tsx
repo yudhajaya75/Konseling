@@ -11,7 +11,7 @@ import Footer from '../../components/footer/footabout'
 
 const about = () => {
     return (
-        <div className='mx-auto max-w-[1730px] relative'>
+        <div className='mx-auto max-w-[1910px] relative'>
             <Navbar />
             <Banner />
             <Teks />

@@ -6,12 +6,12 @@ import Footer from '../../components/footer/footer'
 
 const blog2 = () => {
     return (
-        <>
+        <div className='mx-auto max-w-[1910px] relative'>
             <Navbar />
             <Teks2 />
             <Blog />
             <Footer />
-        </>
+        </div>
     )
 }
 

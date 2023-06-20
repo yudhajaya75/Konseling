@@ -12,7 +12,7 @@ import Footer from '../../components/footer/footer'
 
 const home = () => {
     return (
-        <>
+        <div className='mx-auto max-w-[1910px] relative'>
             <Navbar />
             <Banner />
             <Content />
@@ -23,7 +23,7 @@ const home = () => {
             <Article2 />
             <Questions />
             <Footer />
-        </>
+        </div>
     )
 }
 

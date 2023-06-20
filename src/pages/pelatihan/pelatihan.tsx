@@ -11,7 +11,7 @@ import Footer from '../../components/footer/footer'
 
 const pelatihan = () => {
     return (
-        <>
+        <div className='mx-auto max-w-[1910px] relative'>
             <Navbar />
             <Banner />
             <Teks />
@@ -21,7 +21,7 @@ const pelatihan = () => {
             <Teks3 />
             <Compslid />
             <Footer />
-        </>
+        </div>
     )
 }
 

@@ -9,14 +9,14 @@ import Footer from '../../components/footer/footer'
 
 const blog = () => {
     return (
-        <>
+        <div className='mx-auto max-w-[1910px] relative'>
             <Navbar />
             <Teks />
             <Blog />
             <Blog2 />
             <Blog3 />
             <Footer />
-        </>
+        </div>
     )
 }
 

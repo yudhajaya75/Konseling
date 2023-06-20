@@ -12,7 +12,7 @@ const Login = () => {
     }
 
     return (
-        <div className='max-w-[1785px] h-[927px] lg:h-[1117px] mx-auto relative flex flex-col'>
+        <div className='max-w-[1910px] h-[927px] lg:h-[1117px] mx-auto relative flex flex-col'>
             <div className='w-[2100px] h-full bg-[#010d1f] absolute top-0 -z-20'></div>
             <img src='http://localhost:3000/images/Frame32.png' className='h-full absolute top-0 -z-10' alt="" />
             <div className="flex w-[150px] lg:w-[200px] h-[80px] my-10 ml-5 lg:ml-20"  >
