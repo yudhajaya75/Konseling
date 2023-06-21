@@ -3,7 +3,7 @@ import '../footer/footer.css'
 
 const footer = () => {
     return (
-        <div className='footer' style={{ marginTop: 300 }}>
+        <div className='footer' style={{ marginTop: 0 }}>
             <div className='sb__footer'>
                 <div className='sb__footer-links'>
                     <div className='sb__footer-links_div'>

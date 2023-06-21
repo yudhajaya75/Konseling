@@ -7,8 +7,8 @@ const Teks = () => {
             <div className='text-[15px] relative left-[100px] top-[120px]'>
                 <p className='relative top-6 font-bold text-[20px] text-[#002157]'>Berita Terbaru</p>
                 <a className='text-[#002157] font-bold relative left-[300px] z-10' href="/blog2">See more...</a>
-                <p className='relative left-[480px] bottom-7 font-bold text-[20px] text-[#002157]'>Category Artikel baru</p>
-                <p className='absolute top-7 left-[900px] font-bold text-[20px] text-[#002157]'>Popular Post
+                <p className='relative left-[600px] bottom-7 font-bold text-[20px] text-[#002157]'>Category Artikel baru</p>
+                <p className='absolute top-7 left-[1250px] font-bold text-[20px] text-[#002157]'>Popular Post
                     <a className='text-[#002157] font-bold relative z-10 left-[130px]' href="/blog2">See more...</a></p>
             </div >
         </>

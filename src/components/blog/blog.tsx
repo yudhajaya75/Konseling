@@ -6,7 +6,7 @@ const Blog = () => {
     return (
         <>
             <div className='relative'>
-                <div className='grid grid-cols-1 content-start w-[1300px] h-auto relative '>
+                <div className='grid grid-cols-1 content-start w-[1300px]   h-auto relative '>
                     <div className=' relative left-[100px] top-[120px]'>
                         <a href="blog3"><img className='h-[380px]' src='./images/blog.webp' alt='' /></a>
                         <div className='w-[400px] h-[400px] border-2 bg-white p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
@@ -82,7 +82,7 @@ const Blog = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='border-l-2 h-[2289px] absolute left-[42%] top-[50px]'>
+                    <div className='border-l-2 h-[2289px] absolute left-[47%] top-[50px]'>
                     </div>
                 </div>
             </div>

@@ -12,9 +12,11 @@ const blog = () => {
         <div className='mx-auto max-w-[1910px] relative'>
             <Navbar />
             <Teks />
+            {/* <div className='flex justify-center items-center'> */}
             <Blog />
             <Blog2 />
             <Blog3 />
+            {/* </div> */}
             <Footer />
         </div>
     )

@@ -10,7 +10,7 @@ const Blog = () => {
     return (
         <>
             <div className='relative'>
-                <div className='grid grid-cols-1 content-start absolute left-[1000px] top-[-2290px] '>
+                <div className='grid grid-cols-1 content-start absolute left-[1350px] top-[-2290px] '>
                     <div className=' relative left-[-10px] top-[70px]'>
                         <a href="#"><img className='h-[250px] w-[400px]' src='./images/blog4.webp' alt='' /></a>
                         <div className='w-[400px] z-10 relative left-[13px] bottom-[-40px]'>

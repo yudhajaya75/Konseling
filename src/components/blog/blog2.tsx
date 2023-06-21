@@ -9,10 +9,10 @@ const Blog = () => {
     return (
         <>
             <div className='relative'>
-                <div className='grid grid-cols-1 content-start w-[1300px] relative '>
+                <div className='grid grid-cols-1 content-start w-[1300px] relative left-[7%]'>
                     <div className='absolute left-[530px] bottom-[1650px]'>
-                        <div className='w-[400px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
-                            <a href="#"><p className='text-[30px] font-semibold'>Konseling Satir Indonesia Baru meresmikan gedung baru loh?</p></a>
+                        <div className='w-[500px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
+                            <a href="#"><p className='text-[32px] font-semibold'>Konseling Satir Indonesia Baru meresmikan gedung baru loh?</p></a>
                             <div className='relative top-5 left-[0px]'>
                                 <p className='text-[#8B8B8B]'>06 Maret 2023</p>
                                 <hr className='relative top-3' />
@@ -20,8 +20,8 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='absolute left-[530px] bottom-[1450px]'>
-                        <div className='w-[400px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
-                            <a href="#"><p className='text-[30px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
+                        <div className='w-[500px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
+                            <a href="#"><p className='text-[32px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
                             <div className='relative top-5 left-[0px]'>
                                 <p className='text-[#8B8B8B]'>06 Maret 2023</p>
                                 <hr className='relative top-3' />
@@ -29,8 +29,8 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='absolute left-[530px] bottom-[1250px]'>
-                        <div className='w-[400px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
-                            <a href="#"><p className='text-[30px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
+                        <div className='w-[500px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
+                            <a href="#"><p className='text-[32px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
                             <div className='relative top-5 left-[0px]'>
                                 <p className='text-[#8B8B8B]'>06 Maret 2023</p>
                                 <hr className='relative top-3' />
@@ -38,8 +38,8 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='absolute left-[530px] bottom-[1050px]'>
-                        <div className='w-[400px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
-                            <a href="#"><p className='text-[30px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
+                        <div className='w-[500px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
+                            <a href="#"><p className='text-[32px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
                             <div className='relative top-5 left-[0px]'>
                                 <p className='text-[#8B8B8B]'>06 Maret 2023</p>
                                 <hr className='relative top-3' />
@@ -47,8 +47,8 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='absolute left-[530px] bottom-[850px]'>
-                        <div className='w-[400px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
-                            <a href="#"><p className='text-[30px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
+                        <div className='w-[500px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
+                            <a href="#"><p className='text-[32px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
                             <div className='relative top-5 left-[0px]'>
                                 <p className='text-[#8B8B8B]'>06 Maret 2023</p>
                                 <hr className='relative top-3' />
@@ -56,8 +56,8 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='absolute left-[530px] bottom-[650px]'>
-                        <div className='w-[400px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
-                            <a href="#"><p className='text-[30px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
+                        <div className='w-[500px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
+                            <a href="#"><p className='text-[32px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
                             <div className='relative top-5 left-[0px]'>
                                 <p className='text-[#8B8B8B]'>06 Maret 2023</p>
                                 <hr className='relative top-3' />
@@ -65,8 +65,8 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='absolute left-[530px] bottom-[450px]'>
-                        <div className='w-[400px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
-                            <a href="#"><p className='text-[30px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
+                        <div className='w-[500px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
+                            <a href="#"><p className='text-[32px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
                             <div className='relative top-5 left-[0px]'>
                                 <p className='text-[#8B8B8B]'>06 Maret 2023</p>
                                 <hr className='relative top-3' />
@@ -74,8 +74,8 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='absolute left-[530px] bottom-[250px]'>
-                        <div className='w-[400px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
-                            <a href="#"><p className='text-[30px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
+                        <div className='w-[500px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
+                            <a href="#"><p className='text-[32px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
                             <div className='relative top-5 left-[0px]'>
                                 <p className='text-[#8B8B8B]'>06 Maret 2023</p>
                                 <hr className='relative top-3' />
@@ -83,8 +83,8 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='absolute left-[530px] bottom-[50px]'>
-                        <div className='w-[400px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
-                            <a href="#"><p className='text-[30px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
+                        <div className='w-[500px] h-[400px] p-5 rounded-lg z-10 relative left-[13px] bottom-[200px]'>
+                            <a href="#"><p className='text-[32px] font-semibold'>Lorem Ipsum has been the industry's standard dummy text.</p></a>
                             <div className='relative top-5 left-[0px]'>
                                 <p className='text-[#8B8B8B]'>06 Maret 2023</p>
                             </div>
@@ -92,7 +92,7 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
-            <div className='border-l-2 h-[2289px] absolute left-[61%] top-[229px]'></div>
+            <div className='border-l-2 h-[2289px] absolute left-[65%] top-[229px]'></div>
         </>
     );
 };

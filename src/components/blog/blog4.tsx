@@ -12,7 +12,7 @@ const Blog2 = () => {
             <div>
                 <div className=' relative left-[50px] top-[100px] flex gap-10'>
                     <div className=''>
-                        <img className='h-[460px] w-[900px]' src='./images/blog.webp' alt='' />
+                        <img className='h-[460px] w-[1000px]' src='./images/blog.webp' alt='' />
                     </div>
                     <div className='w-[500px] text-justify text-[15px]'>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's

@@ -440,7 +440,6 @@ const Card = () => {
             </div>
             <div className='pt-[200px]'></div>
         </>
-
     );
 };
 

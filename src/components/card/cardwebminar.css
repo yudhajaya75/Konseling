@@ -5,18 +5,16 @@
 }
 
 .webminar-card {
-    width: 1400px;
     padding: 10px;
-    margin-left: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 3rem;
     position: relative;
     top: 100px;
 }
 
 .card-webminar {
-    width: 340px;
+    width: 420px;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.75);
@@ -25,8 +23,8 @@
 .heading-teks {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 40px;
+    top: 210px;
+    left: 30px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -38,8 +36,8 @@
 .headingg-teks {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 110px;
+    top: 210px;
+    left: 100px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -51,8 +49,8 @@
 .headinggg-teks {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 190px;
+    top: 210px;
+    left: 180px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -64,8 +62,8 @@
 .heading-teks2 {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 390px;
+    top: 210px;
+    left: 500px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -77,8 +75,8 @@
 .headingg-teks2 {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 460px;
+    top: 210px;
+    left: 570px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -90,8 +88,8 @@
 .headinggg-teks2 {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 540px;
+    top: 210px;
+    left: 650px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -103,8 +101,8 @@
 .heading-teks3 {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 740px;
+    top: 210px;
+    left: 970px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -116,8 +114,8 @@
 .headingg-teks3 {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 810px;
+    top: 210px;
+    left: 1040px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -129,8 +127,8 @@
 .headinggg-teks3 {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 890px;
+    top: 210px;
+    left: 1120px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -142,8 +140,8 @@
 .heading-teks4 {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 1100px;
+    top: 210px;
+    left: 1440px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -155,8 +153,8 @@
 .headingg-teks4 {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 1170px;
+    top: 210px;
+    left: 1510px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -168,8 +166,8 @@
 .headinggg-teks4 {
     position: absolute;
     object-fit: cover;
-    top: 170px;
-    left: 1250px;
+    top: 210px;
+    left: 1590px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -181,7 +179,7 @@
 .heading-teks5 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
+    top: 700px;
     left: 40px;
     border-radius: 25px;
     background-color: white;
@@ -194,7 +192,7 @@
 .headingg-teks5 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
+    top: 700px;
     left: 110px;
     border-radius: 25px;
     background-color: white;
@@ -207,7 +205,7 @@
 .headinggg-teks5 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
+    top: 700px;
     left: 190px;
     border-radius: 25px;
     background-color: white;
@@ -220,8 +218,8 @@
 .heading-teks6 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
-    left: 390px;
+    top: 700px;
+    left: 500px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -233,8 +231,8 @@
 .headingg-teks6 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
-    left: 460px;
+    top: 700px;
+    left: 570px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -246,8 +244,8 @@
 .headinggg-teks6 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
-    left: 540px;
+    top: 700px;
+    left: 650px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -259,8 +257,8 @@
 .heading-teks7 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
-    left: 740px;
+    top: 700px;
+    left: 970px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -272,8 +270,8 @@
 .headingg-teks7 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
-    left: 810px;
+    top: 700px;
+    left: 1040px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -285,8 +283,8 @@
 .headinggg-teks7 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
-    left: 890px;
+    top: 700px;
+    left: 1120px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -298,8 +296,8 @@
 .heading-teks8 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
-    left: 1100px;
+    top: 700px;
+    left: 1440px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -311,8 +309,8 @@
 .headingg-teks8 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
-    left: 1170px;
+    top: 700px;
+    left: 1510px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -324,8 +322,8 @@
 .headinggg-teks8 {
     position: absolute;
     object-fit: cover;
-    top: 570px;
-    left: 1250px;
+    top: 700px;
+    left: 1590px;
     border-radius: 25px;
     background-color: white;
     padding-left: 10px;
@@ -341,7 +339,7 @@
 
 .image-webminar img {
     overflow: hidden;
-    height: 200px;
+    height: 250px;
 }
 
 .card-title-webminar .text-webminar {

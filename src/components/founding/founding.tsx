@@ -6,31 +6,33 @@ import '../founding/slider.css'
 
 const Team = () => {
     return (
-        <div className=''>
-            <div className='w-[220px] mt-20'>
-                <img className='ml-[40px]' src='./images/CEO.webp' alt='' />
-                <p className='ml-[40px] text-[#002157]'>
+        <div className='flex justify-center items-center'>
+           <div>
+           <div className='w-[340px] mt-20 ml-[-150px]'>
+                <img className='ml-[10px]' src='./images/CEO.webp' alt='' />
+                <p className='ml-[10px] relative text-[22px] top-[20px] text-[#002157]'>
                     <p className='font-bold'>Fajar Rahardian Siddiq</p> Founder & CEO
                 </p>
             </div>
-            <div className='w-[220px] mt-[-150px] ml-[450px]'>
+            <div className='w-[340px] mt-[-100px] ml-[350px]'>
                 <img className='ml-[-80px]' src='./images/CTO.webp' alt='' />
-                <p className='ml-[-80px] text-[#002157]'>
+                <p className='ml-[-80px] text-[#002157] relative text-[22px] top-[20px]'>
                     <p className='font-bold'>Maulana Abdullah</p>Co-founder & CTO
                 </p>
             </div>
-            <div className='w-[220px] mt-[-450px] ml-[900px]'>
+            <div className='w-[340px] mt-[-350px] ml-[850px] relative bottom-[440px]'>
                 <img className='ml-[-170px]' src='./images/psikolog.webp' alt='' />
-                <p className='ml-[-170px] text-[#002157]'>
+                <p className='ml-[-170px] text-[#002157] relative text-[22px] top-[20px]'>
                     <p className='font-bold'>Robi Hardiana</p>Psikolog Univ. Gajah Mada
                 </p>
             </div>
-            <div className='w-[220px] mt-[-170px] ml-[1350px]'>
+            <div className='w-[340px] mt-[-170px] ml-[1000px] relative bottom-[370px] left-[350px]'>
                 <img className='ml-[-250px]' src='./images/psikolog2.webp' alt='' />
-                <p className='ml-[-250px] text-[#002157]'>
+                <p className='ml-[-250px] text-[#002157] relative text-[22px] top-[20px]'>
                     <p className='font-bold'>M Pijar </p>Psikolog Univ. Gajah Mada
                 </p>
             </div>
+           </div>
         </div>
     );
 };
